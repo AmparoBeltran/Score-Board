@@ -1,7 +1,7 @@
 import "./style.css";
 import logo from "/logo.svg";
 
-import { setupCounter } from "./counter";
+import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = /* html */ `
   <div>
